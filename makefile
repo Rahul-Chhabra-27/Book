@@ -7,3 +7,6 @@ all:
 
 server:
 	go run main.go
+
+environment:
+     Gobin=$(shell go env GOPATH)/bin
